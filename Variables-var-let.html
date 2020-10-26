@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("************var******************");
+        
+        var musica = "Rock";
+        console.log("Variable musica antes del bloque", musica);
+        {
+            var musica = "Pop";
+            console.log("Variable musica dntro del bloque", musica);
+        }
+
+        console.log("Variable Musica despues del bloque", musica);
+
+        console.log("************let******************");
+
+        let musica2 = "Rock";
+        console.log("Variable antes el bloque", musica2);
+        {
+            let musica2 = "Pop";
+            console.log("Variable dentro bloque", musica2);
+        }
+        console.log("Variable despues bloque", musica2);
+    </script>
+</body>
+</html>
