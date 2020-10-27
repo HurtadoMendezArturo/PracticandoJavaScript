@@ -1,3 +1,7 @@
+/*Escribe un programa que pregunte al usuario si es culpable o no. Asumiremos que:
+- En caso afirmativo el usuario responderá si
+- En caso contrario responderá no.
+*/
 
 let respuesta = prompt("ES CULPABLE RESPONDA SI - NO");
 
