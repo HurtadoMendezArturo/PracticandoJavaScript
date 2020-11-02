@@ -12,3 +12,4 @@ if(respuesta == "si") {
 }else{
     document.write("Solo puede responder son SI - NO");
 }
+ 
