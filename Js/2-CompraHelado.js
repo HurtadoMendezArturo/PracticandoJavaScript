@@ -25,4 +25,4 @@ if (helado == "normal") {
     document.write(`El helado con lacasitos ${torallacasitos}$`)
 } else {
     document.write("NO TENEMOS ESE TOPPING");
-} 
+}  
