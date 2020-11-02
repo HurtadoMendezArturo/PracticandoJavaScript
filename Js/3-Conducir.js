@@ -6,4 +6,4 @@ if (edad >= 18) {
     document.write("Eres menor de edad no puedes conducir");
 } else {
     document.write("No has ingresado una edad");
-}
+} 
