@@ -8,4 +8,4 @@ if (dia_semana == "lunes") {
     document.write("Es dia de descanzo");
 }else{
     document.write("Es hora de trabajar");
-} 
+}  
