@@ -9,4 +9,4 @@ if (numero_uno < numero_dos) {
     document.write("Los numeros son iguales");
 }else {
     document.write("Ingresaste mal el numero");
-} 
+}  
