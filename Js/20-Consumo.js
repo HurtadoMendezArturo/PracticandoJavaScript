@@ -18,80 +18,80 @@ let PotenciaCO = 400;
      let HorasDeConsumo = prompt("Ingrese cuantas horas usa la DUCHA ELECTRICA por dia");
      let DiasDeUso = prompt("Ingrese cuantos días usa la DUCHA ELECTRICA");
 
-     document.write(`La DUCHA ELECTRICA</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso,</br> tu consumo electrico es de ${PotenciaDE * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE DE LA DUCHA ELECTRICA PAGARAS $${0.6689 * (PotenciaDE * HorasDeConsumo * DiasDeUso / 1000)}`);
+     document.write(`La DUCHA ELECTRICA</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso al mes,</br> tu consumo electrico es de ${PotenciaDE * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE DE LA DUCHA ELECTRICA PAGARAS $${0.6689 * (PotenciaDE * HorasDeConsumo * DiasDeUso / 1000)}`);
      
  }else if (Artefacto == 2) {
     let HorasDeConsumo = prompt("Ingrese cuantas horas usa el MICROONDAS por dia");
     let DiasDeUso = prompt("Ingrese cuantos días usa la MICROONDAS");
 
-    document.write(`El MICROONDAS</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso,</br> tu consumo electrico es de ${PotenciaMI * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DEL MICOONDAS PAGARAS $${0.6689 * (PotenciaMI * HorasDeConsumo * DiasDeUso / 1000)}`);
+    document.write(`El MICROONDAS</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso al mes,</br> tu consumo electrico es de ${PotenciaMI * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DEL MICOONDAS PAGARAS $${0.6689 * (PotenciaMI * HorasDeConsumo * DiasDeUso / 1000)}`);
 
  }else if (Artefacto == 3) {
     let HorasDeConsumo = prompt("Ingrese cuantas horas usa la REFRIGERADORA por dia");
     let DiasDeUso = prompt("Ingrese cuantos días usa la REFRIGERADORA");
 
-    document.write(`La REFRIGERADORA </br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso,</br> tu consumo electrico es de ${PotenciaRE * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE LA REFRIGERADORA PAGARAS $${0.6689 * (PotenciaRE * HorasDeConsumo * DiasDeUso / 1000)}`);
+    document.write(`La REFRIGERADORA </br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso al mes,</br> tu consumo electrico es de ${PotenciaRE * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE LA REFRIGERADORA PAGARAS $${0.6689 * (PotenciaRE * HorasDeConsumo * DiasDeUso / 1000)}`);
      
  }else if (Artefacto == 4) {
     let HorasDeConsumo = prompt("Ingrese cuantas horas usa el FOCO AHORRADOR por dia");
     let DiasDeUso = prompt("Ingrese cuantos días usa el FOCO AHORRADOR");
 
-    document.write(`El FOCO AHORRADOR</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso,</br> tu consumo electrico es de ${PotenciaFA * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DEL FOCO AHORRADOR PAGARAS $${0.6689 * (PotenciaFA * HorasDeConsumo * DiasDeUso / 1000)}`);
+    document.write(`El FOCO AHORRADOR</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso al mes,</br> tu consumo electrico es de ${PotenciaFA * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DEL FOCO AHORRADOR PAGARAS $${0.6689 * (PotenciaFA * HorasDeConsumo * DiasDeUso / 1000)}`);
      
  }else if (Artefacto == 5) {
     let HorasDeConsumo = prompt("Ingrese cuantas horas usa el FOCO INCANDESCENTE por dia");
     let DiasDeUso = prompt("Ingrese cuantos días usa el FOCO INCANDESCENTE ");
 
-    document.write(`El FOCO INCANDESCENTE </br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso,</br> tu consumo electrico es de ${PotenciaFI * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DEL FOCO INCANDESCENTE  PAGARAS $${0.6689 * (PotenciaFI * HorasDeConsumo * DiasDeUso / 1000)}`);
+    document.write(`El FOCO INCANDESCENTE </br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso al mes,</br> tu consumo electrico es de ${PotenciaFI * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DEL FOCO INCANDESCENTE  PAGARAS $${0.6689 * (PotenciaFI * HorasDeConsumo * DiasDeUso / 1000)}`);
      
  }else if (Artefacto == 6) {
     let HorasDeConsumo = prompt("Ingrese cuantas horas usa la PLANCHA por dia");
     let DiasDeUso = prompt("Ingrese cuantos días usa la PLANCHA ");
 
-    document.write(`La PLANCHA </br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso,</br> tu consumo electrico es de ${PotenciaPL * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE LA PLANCHA  PAGARAS $${0.6689 * (PotenciaPL * HorasDeConsumo * DiasDeUso / 1000)}`);
+    document.write(`La PLANCHA </br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso al mes,</br> tu consumo electrico es de ${PotenciaPL * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE LA PLANCHA  PAGARAS $${0.6689 * (PotenciaPL * HorasDeConsumo * DiasDeUso / 1000)}`);
      
      
  }else if (Artefacto == 7) {
     let HorasDeConsumo = prompt("Ingrese cuantas horas usa la LAVADORA por dia");
     let DiasDeUso = prompt("Ingrese cuantos días usa la LAVADORA ");
 
-    document.write(`La LAVADORA</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso,</br> tu consumo electrico es de ${PotenciaLA * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE LA LAVADORA PAGARAS $${0.6689 * (PotenciaLA * HorasDeConsumo * DiasDeUso / 1000)}`);
+    document.write(`La LAVADORA</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso al mes,</br> tu consumo electrico es de ${PotenciaLA * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE LA LAVADORA PAGARAS $${0.6689 * (PotenciaLA * HorasDeConsumo * DiasDeUso / 1000)}`);
      
  }else if (Artefacto == 8) {
     let HorasDeConsumo = prompt("Ingrese cuantas horas usa el HERVIDOR DE AGUA por dia");
     let DiasDeUso = prompt("Ingrese cuantos días usa el HERVIDOR DE AGUA ");
 
-    document.write(`EL HERVIDOR DE AGUA</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso,</br> tu consumo electrico es de ${PotenciaHA * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE EL HERVIDOR DE AGUA PAGARAS $${0.6689 * (PotenciaHA * HorasDeConsumo * DiasDeUso / 1000)}`);
+    document.write(`EL HERVIDOR DE AGUA</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso al mes,</br> tu consumo electrico es de ${PotenciaHA * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE EL HERVIDOR DE AGUA PAGARAS $${0.6689 * (PotenciaHA * HorasDeConsumo * DiasDeUso / 1000)}`);
      
  }else if (Artefacto == 9) {
     let HorasDeConsumo = prompt("Ingrese cuantas horas usa la LICUADORA por dia");
     let DiasDeUso = prompt("Ingrese cuantos días usa la LICUADORA");
 
-    document.write(`La LICUADORA</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso,</br> tu consumo electrico es de ${PotenciaLI * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE LA LICUADORA PAGARAS $${0.6689 * (PotenciaLI * HorasDeConsumo * DiasDeUso / 1000)}`);
+    document.write(`La LICUADORA</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso al mes,</br> tu consumo electrico es de ${PotenciaLI * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE LA LICUADORA PAGARAS $${0.6689 * (PotenciaLI * HorasDeConsumo * DiasDeUso / 1000)}`);
      
  }else if (Artefacto == 10) {
     let HorasDeConsumo = prompt("Ingrese cuantas horas usa el TELEVISOR por dia");
     let DiasDeUso = prompt("Ingrese cuantos días usa el TELEVISOR");
 
-    document.write(`EL TELEVISOR/br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso,</br> tu consumo electrico es de ${PotenciaTE * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DEL TELEVISOR PAGARAS $${0.6689 * (PotenciaTE * HorasDeConsumo * DiasDeUso / 1000)}`);
+    document.write(`EL TELEVISOR/br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso al mes,</br> tu consumo electrico es de ${PotenciaTE * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DEL TELEVISOR PAGARAS $${0.6689 * (PotenciaTE * HorasDeConsumo * DiasDeUso / 1000)}`);
      
  }else if (Artefacto == 11) {
     let HorasDeConsumo = prompt("Ingrese cuantas horas usa el EQUIPO DE SANIDO por dia");
     let DiasDeUso = prompt("Ingrese cuantos días usa el EQUIPO DE SANIDO");
 
-    document.write(`EL EQUIPO DE SANIDO</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso,</br> tu consumo electrico es de ${PotenciaES * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DEL EQUIPO DE SANIDO PAGARAS $${0.6689 * (PotenciaES * HorasDeConsumo * DiasDeUso / 1000)}`);
+    document.write(`EL EQUIPO DE SANIDO</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso al mes,</br> tu consumo electrico es de ${PotenciaES * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DEL EQUIPO DE SANIDO PAGARAS $${0.6689 * (PotenciaES * HorasDeConsumo * DiasDeUso / 1000)}`);
      
  }else if (Artefacto == 12) {
     let HorasDeConsumo = prompt("Ingrese cuantas horas usa la LAPTOP por dia");
     let DiasDeUso = prompt("Ingrese cuantos días usa la LAPTOP");
 
-    document.write(`LA LAPTOP</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso,</br> tu consumo electrico es de ${PotenciaLP * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE LA LAPTOP PAGARAS $${0.6689 * (PotenciaLP * HorasDeConsumo * DiasDeUso / 1000)}`);
+    document.write(`LA LAPTOP</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso al mes,</br> tu consumo electrico es de ${PotenciaLP * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE LA LAPTOP PAGARAS $${0.6689 * (PotenciaLP * HorasDeConsumo * DiasDeUso / 1000)}`);
      
  }else if (Artefacto == 13) {
     let HorasDeConsumo = prompt("Ingrese cuantas horas usa la COMPUTADORA por dia");
     let DiasDeUso = prompt("Ingrese cuantos días usa la COMPUTADORA");
 
-    document.write(`LA COMPUTADORA</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso,</br> tu consumo electrico es de ${PotenciaCO * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE LA COMPUTADORA PAGARAS $${0.6689 * (PotenciaCO * HorasDeConsumo * DiasDeUso / 1000)}`);
+    document.write(`LA COMPUTADORA</br> por ${HorasDeConsumo} hora y por ${DiasDeUso} días de uso al mes,</br> tu consumo electrico es de ${PotenciaCO * HorasDeConsumo * DiasDeUso / 1000}/kwh </br> ESTE MES POR EL CONSUMO DE LA COMPUTADORA PAGARAS $${0.6689 * (PotenciaCO * HorasDeConsumo * DiasDeUso / 1000)}`);
  } else {
     document.write("Error ingresaste mal el número") 
  } 
