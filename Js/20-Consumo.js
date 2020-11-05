@@ -95,7 +95,7 @@ let PotenciaCO = 400;
  } else {
     document.write("Error ingresaste mal el número") 
  } 
- /*
+ console.log("
 1   ->  0.02
 2   ->  0.03
 3   ->  0.05
@@ -156,4 +156,4 @@ let PotenciaCO = 400;
 58  ->  0.97
 59  ->  0.98
 60  ->  1
-*/
+")
