@@ -6,5 +6,10 @@ let MinutosEnSegundos = minutos * 60;
 let suma = HoraEnSegundos + MinutosEnSegundos;
 
 
-
-    document.write(`La hora que ingresaste es ${hora}:${minutos}. La hora en segundos es ${suma}`);
+if (hora >= 13) {
+    document.write(`Ingresaste ${hora} horas. Solo debes ingresar la hora 1 - 12 horas`)
+}else if (minutos >= 61) {
+    document.write(`Ingresaste ${minutos} minutos. Solo debes ingresar de 1 - 60 minutos`)
+} else {
+    document.write(`La hora que ingresaste es ${hora}:${minutos}. La hora en segundos es ${suma} segundos.`);
+} 
