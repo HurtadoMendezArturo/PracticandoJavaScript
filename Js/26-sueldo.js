@@ -2,10 +2,15 @@ let años = prompt("Se te aplicara un aumento de acuerdo a los años trabajados 
 
 let sueldoAnual = 40000;
 
-let aumentoUno = sueldoAnual * 0.10;
-let aumentoDos = sueldoAnual * 0.07;
-let aumentoTres = sueldoAnual *0.05;
-let aumentoCuatro = sueldoAnual * 0.03;
+let bonoUno = 0.10;
+let bonoDos = 0.07;
+let bonoTres = 0.05;
+let bonoCuatro = 0.03;
+
+let aumentoUno = sueldoAnual * bonoUno;
+let aumentoDos = sueldoAnual * bonoDos;
+let aumentoTres = sueldoAnual * bonoTres;
+let aumentoCuatro = sueldoAnual * bonoCuatro;
 
 
 
