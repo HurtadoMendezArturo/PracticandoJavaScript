@@ -11,5 +11,5 @@ if (dia == "martes" || dia == "jueves") {
     document.write(`El monto que debes pagar es de $${compra}.`);
 
 } else {
-    document.write(`Error haz ingresado (${dia}). Debes ingresar un dia de la semana.`);
+    document.write(`Error haz ingresado (${dia}). Debes ingresar un dia de la semana.`); 
 } 
